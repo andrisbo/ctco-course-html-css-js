@@ -28,7 +28,7 @@ linkElement.addEventListener('click', () => {
 let counter = 0;
 document.addEventListener('click', () => {
     counter++;
-    if (counter == 5) {
+    if (counter === 5) {
         alert("5 clicks done");
     }
 });
